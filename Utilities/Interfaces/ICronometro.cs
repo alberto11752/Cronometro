@@ -1,4 +1,4 @@
-﻿namespace CronometroTresBotones.Interfaces
+﻿namespace Utilities.Interfaces
 {
     public interface ICronometro
     {

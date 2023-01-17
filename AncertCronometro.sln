@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CronometroTresBotones", "Cr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CronometroDosBotones", "CronometroDosBotones\CronometroDosBotones.csproj", "{617661F1-0348-4092-AC14-BF55E0E74F88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{F1BBD142-3A19-4100-A29E-65A51A0C9C9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{617661F1-0348-4092-AC14-BF55E0E74F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{617661F1-0348-4092-AC14-BF55E0E74F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{617661F1-0348-4092-AC14-BF55E0E74F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BBD142-3A19-4100-A29E-65A51A0C9C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BBD142-3A19-4100-A29E-65A51A0C9C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BBD142-3A19-4100-A29E-65A51A0C9C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BBD142-3A19-4100-A29E-65A51A0C9C9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
