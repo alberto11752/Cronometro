@@ -1,11 +1,6 @@
-﻿using System;
-using System.Windows.Controls;
-using System.Diagnostics;
-using System.Windows;
-using System.Threading;
-using CronometroDosBotones.Interfaces;
+﻿using Utilities.Interfaces;
 
-namespace CronometroDosBotones
+namespace Utilities
 {
     public class Cronometro : CronometroBase, ICronometro
     {

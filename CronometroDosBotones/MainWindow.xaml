@@ -16,7 +16,7 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
         <Label x:Name="lbl_Timer" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" FontSize="48"/>
-        <Button x:Name="btn_StartStop" Grid.Column="0" Content="Start" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Background="Green" Click="btn_StartStop_Click" AutomationProperties.AccessKey="" Grid.Row="1"/>
-        <Button x:Name="btn_Pause" Grid.Row="1" Grid.Column="1" Content="Pause" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Click="btn_Pause_Click"/>
+        <Button x:Name="btn_StartStop" Cursor="Hand" Grid.Column="0" Content="Start" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Background="Green" Click="btn_StartStop_Click" AutomationProperties.AccessKey="" Grid.Row="1"/>
+        <Button x:Name="btn_Pause" Cursor="Hand" Grid.Row="1" Grid.Column="1" Content="Pause" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Click="btn_Pause_Click"/>
     </Grid>
 </Window>

@@ -1,11 +1,9 @@
 ﻿using System.Windows.Controls;
 using System.Windows;
-using System.Threading;
-using CronometroDosBotones.Interfaces;
-using System;
+using Utilities.Interfaces;
 using System.Diagnostics;
 
-namespace CronometroDosBotones
+namespace Utilities
 {
     public class LabelUpdater : ILabelUpdater
     {
@@ -14,7 +12,7 @@ namespace CronometroDosBotones
         private int _miliseconds;
         private Stopwatch _stopwatch;
 
-        public LabelUpdater(ref Label label, ref Stopwatch stopwatch, int miliseconds)
+        public LabelUpdater(ref Label label,ref Stopwatch stopwatch, int miliseconds)
         {
             _label = label;
             _miliseconds = miliseconds;
